@@ -1,4 +1,4 @@
-# md2png
+# md22png
 
 [![Build Status][travis-image]][travis-url]
 [![Coverage Status][codecov-image]][codecov-url]
@@ -14,10 +14,10 @@
 ## Installation
 
 ```shell
-$ npm install md2png
+$ npm install md22png
 
 # or yarn
-$ yarn add md2png
+$ yarn add md22png
 ```
 
 ## Usage
@@ -25,8 +25,8 @@ $ yarn add md2png
 <!-- TODO: Introduction of API use -->
 
 ```javascript
-const md2Png = require("md2png");
-const result = md2Png("zce");
+const md22png = require("md22png");
+const result = md22png({input, output, outputname, width});
 // result => 'zce@zce.me'
 ```
 
@@ -34,7 +34,7 @@ const result = md2Png("zce");
 
 <!-- TODO: Introduction of API -->
 
-### md2Png(name[, options])
+### md22png({input, output, outputname, width})
 
 #### name
 
@@ -54,16 +54,16 @@ const result = md2Png("zce");
 <!-- TODO: Introduction of CLI -->
 
 ```shell
-$ yarn global add md2png
+$ yarn global add md22png
 
 # or npm
-$ npm install md2png -g
+$ npm install md22png -g
 ```
 
 ```shell
-$ md2png --help
+$ md22png --help
 
-  Usage: md2png <input>
+  Usage: md22png <input>
 
   Options:
 
@@ -87,19 +87,19 @@ $ md2png --help
 
 [MIT](LICENSE) &copy; zce <w@zce.me> (https://zce.me)
 
-[travis-image]: https://img.shields.io/travis/zce/md2png/master.svg
-[travis-url]: https://travis-ci.org/zce/md2png
-[codecov-image]: https://img.shields.io/codecov/c/github/zce/md2png/master.svg
-[codecov-url]: https://codecov.io/gh/zce/md2png
-[downloads-image]: https://img.shields.io/npm/dm/md2png.svg
-[downloads-url]: https://npmjs.org/package/md2png
-[version-image]: https://img.shields.io/npm/v/md2png.svg
-[version-url]: https://npmjs.org/package/md2png
-[license-image]: https://img.shields.io/github/license/zce/md2png.svg
-[license-url]: https://github.com/zce/md2png/blob/master/LICENSE
-[dependency-image]: https://img.shields.io/david/zce/md2png.svg
-[dependency-url]: https://david-dm.org/zce/md2png
-[devdependency-image]: https://img.shields.io/david/dev/zce/md2png.svg
-[devdependency-url]: https://david-dm.org/zce/md2png?type=dev
+[travis-image]: https://img.shields.io/travis/zce/md22png/master.svg
+[travis-url]: https://travis-ci.org/zce/md22png
+[codecov-image]: https://img.shields.io/codecov/c/github/zce/md22png/master.svg
+[codecov-url]: https://codecov.io/gh/zce/md22png
+[downloads-image]: https://img.shields.io/npm/dm/md22png.svg
+[downloads-url]: https://npmjs.org/package/md22png
+[version-image]: https://img.shields.io/npm/v/md22png.svg
+[version-url]: https://npmjs.org/package/md22png
+[license-image]: https://img.shields.io/github/license/zce/md22png.svg
+[license-url]: https://github.com/zce/md22png/blob/master/LICENSE
+[dependency-image]: https://img.shields.io/david/zce/md22png.svg
+[dependency-url]: https://david-dm.org/zce/md22png
+[devdependency-image]: https://img.shields.io/david/dev/zce/md22png.svg
+[devdependency-url]: https://david-dm.org/zce/md22png?type=dev
 [style-image]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
 [style-url]: https://standardjs.com

@@ -1,7 +1,7 @@
 {
-  "name": "md2png",
-  "version": "1.0.0",
-  "description": "md2png",
+  "name": "md22png",
+  "version": "1.0.1",
+  "description": "md22png",
   "files": [
     "bin",
     "lib"
@@ -12,7 +12,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "md2png"
+    "md22png"
   ],
   "author": "yifee",
   "license": "ISC",
