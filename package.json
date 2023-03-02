@@ -1,6 +1,6 @@
 {
   "name": "md22png",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "md22png",
   "files": [
     "bin",
@@ -14,7 +14,7 @@
   "keywords": [
     "md22png"
   ],
-  "author": "yifee",
+  "author": "yifeewang",
   "license": "ISC",
   "dependencies": {
     "chalk": "^2.4.2",
