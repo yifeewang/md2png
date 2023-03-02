@@ -25,18 +25,12 @@ const result = md22png({input, output, outputname, width});
 
 ### md22png({input, output, outputname, width})
 
-#### name
-
-- Type: `string`
-- Details: name string
-
 #### options
 
-##### host
-
-- Type: `string`
-- Details: host string
-- Default: `'yifee.wang'`
+- input: `string`
+- output: `string`
+- outputname: `string`
+- width: `number`
 
 ## CLI Usage
 
